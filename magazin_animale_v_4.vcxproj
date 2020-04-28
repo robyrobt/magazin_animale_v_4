@@ -147,7 +147,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="magazin_animale_v_4.cpp" />
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="IRepository.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
